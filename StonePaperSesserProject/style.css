@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Heading{
+    height: 5rem;
+    background-color:  #081b31;
+   color: #fff;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+.img{
+
+    height: 350px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 3rem;
+}
+img:hover{
+    border-style: solid;
+    border-color: black;
+    background-color:  #081b31;
+    cursor: pointer;
+}
+
+.score{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+p{
+    font-size: 3rem;
+
+}
+.you{
+    text-align: center;
+}
+.com{
+    text-align: center;
+}
+
+.win{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+   
+    color: #fff;
+   
+}
+h3{
+    height: 80px;
+    width: 400px;
+    background-color: #081b31;
+    border-radius: 2rem;
+    text-align: center;
+}
